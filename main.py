@@ -5,8 +5,8 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
 
-CLIENT_ID = '439adbe2b79f49c6af311450293234da'
-CLIENT_SECRET = '69017c81ee1440729e93252d58b5a824'
+CLIENT_ID = os.environ('CLIENT_ID')
+CLIENT_SECRET = os.environ('CLIENT_SECRET')
 URI = 'http://example.com'
 url_endpoint = 'https://api.spotify.com/v1/search'
 
